@@ -135,11 +135,14 @@
   margin: 0 auto;
   width: 145px;
   height: 35px;
-  font: 600 35px 'Amatic SC';
+  font: 600 30px 'Amatic SC';
   color: #3d3356;
 }
 .chef-text .chiaro {
   color: #a295b5;
+}
+.chef-text:hover {
+  text-decoration: underline;
 }
 .elenco p,.elenco h3 {
   font: 500 'Roboto Slab';
@@ -163,6 +166,11 @@
 }
 .f-utilities p {
   text-decoration: underline;
+}
+.arrow i {
+  margin-top: 40px;
+  font-size: 45px;
+  color: #7d6aa3;
 }
 
 /* div and containers */
@@ -263,6 +271,7 @@
   padding: 0 50px;
   height: 300px;
   margin-top: 50px;
+  position: relative;
 }
 .pics-r {
   height: 100px;
