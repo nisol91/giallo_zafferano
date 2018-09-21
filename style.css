@@ -1,3 +1,201 @@
+/* typhography and images */
 * {
-  color:blue
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.log-o {
+  max-width: 180px;
+}
+.c-h-mid p {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  line-height: 35px;
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+.c-h-down p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4b4164;
+  line-height: 35px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+#last-recipes {
+  padding-left: 20px;
+  padding-right: 8px;
+  margin-bottom: 10px;
+  background: url('https://www.giallozafferano.it/style/images/secnav-icons.png') 0 -203px no-repeat;
+}
+#last-recipes:hover {
+  background: url('https://www.giallozafferano.it/style/images/secnav-icons.png') 0 -3px no-repeat;
+}
+.cdown-nav {
+    padding-left: 20px;
+    padding-right: 8px;
+    margin-bottom: 10px;
+    background: url('https://www.giallozafferano.it/style/images/ic-secnav-gen.png') 0 -3px no-repeat;
+}
+.cdown-nav:hover {
+  background: url('https://www.giallozafferano.it/style/images/ic-secnav-gen.png') 0 -33px no-repeat;
+}
+.c-h-mid p:hover {
+  color: #d7ccee;
+}
+.c-h-mid .fa-home  {
+  line-height: 35px;
+  color: #d7ccee;
+}
+.c-h-mid .fa-book-open {
+  line-height: 35px;
+  color: #ff9713;
+  margin-left: 30px;
+}
+#edicola {
+  margin-left: 5px;
+}
+#tv-yellow {
+  color: #ff9713;
+}
+.foto-sx {
+  padding-right: 1px;
+  padding-left: 1px;
+  position: relative;
+}
+.foto-dx {
+  padding-left: 1px;
+  padding-right: 1px;
+  position: relative;
+}
+.fot-dx {
+  max-height: 99.7%;
+}
+.titl-foto {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+}
+.titl-foto p {
+  color: #f8ddb8;
+  font: 35px 'Cookie';
+  margin-left: 20px;
+}
+.titl-foto h3 {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 700;
+  font-family: 'Roboto Slab';
+}
+
+/* div and containers */
+
+.fl-l {
+  float: left;
+}
+.fl-r {
+  float: right;
+}
+.h-top {
+  background: #fafaf6;
+  height: 50px;
+}
+.h-mid {
+  background: #7b6aa3;
+  height: 35px;
+}
+.h-down {
+  background: white;
+  height: 35px;
+}
+.c-central {
+  height: 500px;
+  background: white;
+}
+.cont-central {
+  background: #f6f2f9;
+  width: 100%;
+  height: 500px;
+  padding: 20px 150px 0 150px;
+}
+.c-footer {
+  height: 180px;
+  background: grey;
+  border-top: 6px solid #7d6aa3;
+}
+.resear-ch {
+  margin-top: 10px;
+  border-right: 1px solid lightgrey;
+  padding-right: 3%;
+  position: relative;
+}
+.resear-ch input {
+  color: #54437e;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  padding-left: 5px;
+  height: 35px;
+  width: 300px;
+}
+.social-s {
+  height: 35px;
+  margin-top: 10px;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-right: 1px solid lightgrey;
+}
+.log-in{
+  width: 50px;
+  height: 25px;
+  margin-top: 10px;
+  background: url('https://www.giallozafferano.it/style/images/header-user.png')
+}
+.lente {
+  position: absolute;
+  bottom: 5px;
+  right: 45px;
+}
+.c-h-top {
+  padding: 0 50px 0 50px;
+  height: 50px;
+}
+.c-h-mid {
+  padding: 0 50px 0 50px;
+  height: 35px;
+}
+.c-h-down {
+  padding: 0 50px 0 50px;
+  height: 35px;
+}
+.reg-ist {
+  color: white;
+  background: #ff9713;
+  border: 1px solid #ff9713;
+  height: 25px;
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 6px;
+  line-height: 13px;
+}
+/* media query */
+@media (max-width: 1100px) {
+  .c-h-top, .c-h-mid, .c-h-down {
+    padding: 0;
+  }
+  .reg-ist {
+    width: 80px;
+    margin-left: 40px;
+    font-size: 10px;
+  }
+  .c-h-mid p {
+    font-size: 12px;
+    margin-left: 30px;
+  }
+  .cont-central {
+    padding: 20px 0 0 0;
+  }
+}
+@media (max-width: 576px) {
+
 }
