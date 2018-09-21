@@ -121,7 +121,7 @@
   background: url('https://www.giallozafferano.it/style/images/bg-h3-sez.png') 0 0 repeat-x;
 }
 .block-third h3::before, .block-third h3::after {
-  width: 30%;
+  width: 28%;
 }
 .pics-r img {
     display: block;
@@ -143,6 +143,26 @@
 }
 .elenco p,.elenco h3 {
   font: 500 'Roboto Slab';
+  color: #403659;
+}
+.recipes p {
+  color: #3d3257;
+  font: bold 17px 'Roboto Slab';
+  margin-top: 10px;
+}
+.f-text p {
+  font-size: 11px;
+  margin: 0;
+  margin-left: 20px;
+  font-family: 'Lato';
+  max-width: 600px;
+}
+.f-violet {
+  color: #7d6aa3;
+  font-weight: 700;
+}
+.f-utilities p {
+  text-decoration: underline;
 }
 
 /* div and containers */
@@ -166,19 +186,23 @@
   height: 35px;
 }
 .c-central {
-  height: 2000px;
+  height: 1700px;
   background: white;
 }
 .cont-central {
   background: #f6f2f9;
   width: 100%;
-  height: 2000px;
+  height: 1700px;
   padding: 20px 150px 0 150px;
 }
 .c-footer {
   height: 180px;
-  background: grey;
+  background: white;
   border-top: 6px solid #7d6aa3;
+}
+.cont-foot {
+  height: 180px;
+  padding: 20px 100px 0 100px;
 }
 .resear-ch {
   margin-top: 10px;
@@ -248,11 +272,14 @@
 .main-sx {
   width: 50px;
   height: 600px;
-  /* background: blue; */
 }
 .main-dx {
   width: 50px;
   height: 250px;
+}
+.f-utilities {
+  margin-left: 0;
+  margin-top: 10px;
 }
 /* media query */
 @media (max-width: 1100px) {
