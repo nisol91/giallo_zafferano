@@ -365,10 +365,44 @@
     width: 30%;
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 770px) {
   .bauuu {
     display: none;
   }
+  .resear-ch input {
+    width: 210px;
+  }
+  .ada-vending {
+    display: none;
+  }
+  .elenco p {
+    font-size: 13px;
+  }
+  .elenco h3 {
+    font-size: 20px;
+  }
+  .round-pic-container {
+    height: 230px;
+  }
+  .cont-central {
+    height: 2500px;
+  }
+  .c-central {
+    height: 2500px;
+  }
+  .block h3::before, .block h3::after {
+    width: 20%;
+  }
+
+  .pics-r {
+    text-align: center;
+  }
+  .pics-r img {
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+ }
 }
 @media (max-width: 540px) {
   .bauuuu {
@@ -376,5 +410,7 @@
   }
 }
 @media (max-width: 576px) {
-
+  .resear-ch input {
+    display: none;
+  }
 }
