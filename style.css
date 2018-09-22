@@ -326,6 +326,9 @@
   .bau {
     display: none;
   }
+  .pics-r {
+    width: 23%;
+  }
   .block h3::before, .block h3::after {
     width: 32%;
   }
@@ -364,6 +367,9 @@
   .block h3::before, .block h3::after {
     width: 30%;
   }
+  .pics-r {
+    width: 25%;
+  }
 }
 @media (max-width: 770px) {
   .bauuu {
@@ -393,16 +399,9 @@
   .block h3::before, .block h3::after {
     width: 20%;
   }
-
   .pics-r {
-    text-align: center;
+    width: 40%;
   }
-  .pics-r img {
-    display: inline-block;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
- }
 }
 @media (max-width: 540px) {
   .bauuuu {
