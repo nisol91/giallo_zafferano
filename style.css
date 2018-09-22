@@ -370,6 +370,13 @@
   .pics-r {
     width: 25%;
   }
+  .sand-w {
+    width: 50px;
+    height: 35px;
+    border-left: 1px solid lightgrey;
+    margin-top: 8px;
+    margin-left: 12px;
+ }
 }
 @media (max-width: 770px) {
   .bauuu {
@@ -412,4 +419,34 @@
   .resear-ch input {
     display: none;
   }
+  .lente {
+    float: right;
+    bottom: 6px;
+    right: 10px;
+  }
+  .log-in {
+    width: 40px;
+  }
+  .resear-ch {
+    margin-top: 8px;
+  border-right: 1px solid lightgrey;
+  padding-right: 7%;
+  margin-right: -10px;
+  height: 36px;
+  }
+  .fot-dx {
+    max-height: 100.7%;
+ }
+ .sand-w {
+   width: 60px;
+ }
+ .log-o, .logo-fut {
+    margin-left: 13px;
+ }
+ .block h3::before, .block h3::after {
+   width: 10%;
+ }
+ .pics-r {
+   width: 56%;
+ }
 }
