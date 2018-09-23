@@ -446,7 +446,47 @@
  .block h3::before, .block h3::after {
    width: 10%;
  }
+ #last-border h3::before, #last-border h3::after {
+   width: 13%;
+ }
  .pics-r {
    width: 56%;
  }
+ .elenco p {
+   font-size: 10px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+ .elenco h3 {
+   font-size: 17px;
+   margin-bottom: 15px;
+ }
+ .cont-central {
+   height: 2200px;
+ }
+ .c-central {
+   height: 2200px;
+ }
+ .f-text p {
+   text-align: center;
+   margin: 0;
+ }
+ .cont-foot {
+    height: 180px;
+    padding: 10px 10px 0 10px;
+  }
+  .logo-fut {
+    margin-left: 0px;
+  }
+  .f-utilities p {
+    margin-left: 8px;
+  }
+}
+@media (max-width: 576px) {
+  .cont-central {
+    height: 2000px;
+  }
+  .c-central {
+    height: 2000px;
+  }
 }
