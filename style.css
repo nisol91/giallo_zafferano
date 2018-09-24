@@ -197,22 +197,22 @@
   height: 35px;
 }
 .c-central {
-  height: 1700px;
+  /* height: 1700px; */
   background: white;
 }
 .cont-central {
   background: #f6f2f9;
   width: 100%;
-  height: 1700px;
+  /* height: 1700px; */
   padding: 20px 150px 0 150px;
 }
 .c-footer {
-  height: 180px;
+  /* height: 180px; */
   background: white;
   border-top: 6px solid #7d6aa3;
 }
 .cont-foot {
-  height: 180px;
+  /* height: 180px; */
   padding: 20px 100px 0 100px;
 }
 .resear-ch {
@@ -283,11 +283,11 @@
 }
 .main-sx {
   width: 50px;
-  height: 600px;
+  /* height: 600px; */
 }
 .main-dx {
   width: 50px;
-  height: 250px;
+  /* height: 250px; */
 }
 .f-utilities {
   margin-left: 0;
@@ -398,10 +398,10 @@
     height: 230px;
   }
   .cont-central {
-    height: 2500px;
+    /* height: 2500px; */
   }
   .c-central {
-    height: 2500px;
+    /* height: 2500px; */
   }
   .block h3::before, .block h3::after {
     width: 20%;
@@ -462,10 +462,10 @@
    margin-bottom: 15px;
  }
  .cont-central {
-   height: 2200px;
+   /* height: 2200px; */
  }
  .c-central {
-   height: 2200px;
+   /* height: 2200px; */
  }
  .f-text p {
    text-align: center;
@@ -484,9 +484,9 @@
 }
 @media (max-width: 576px) {
   .cont-central {
-    height: 2000px;
+    /* height: 2000px; */
   }
   .c-central {
-    height: 2000px;
+    /* height: 2000px; */
   }
 }
